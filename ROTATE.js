@@ -1,6 +1,6 @@
-//alert("hello");
-//Created this demo in about 30 minutes with knowing just 1 week of jQuery
-
+// alert("hello");
+// Created this demo in about 30 minutes with knowing just 1 week of jQuery
+// view on my portfolio site: brookesportfolio.com/ROTATE.html
 $(document).ready(function() {
 
 $("button").click(function(){
