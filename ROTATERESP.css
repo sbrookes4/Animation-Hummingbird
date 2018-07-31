@@ -1,0 +1,106 @@
+
+/* Created this demo in about 30 minutes with knowing just 1 week of jQuery */ 
+body{
+	background-color:black;
+}
+
+#buttonA{
+	border:white 4px solid;
+	color:white;
+	background-color:black;
+}
+
+#buttonA:hover{
+	cursor:pointer;
+}
+
+#fluZ{
+	margin-top:1vw;
+	margin-left:2vw;
+	float:left;
+	width:100%;
+}
+
+/* -- hummingbird start container --*/
+#humCont{
+	border:white 3px solid;
+	width:90vw;
+	height:46vw;
+	margin-top:2vw;
+	margin-left:2vw;
+	float:left;
+}
+
+/* -- hummingbird image--*/
+#hum{
+	margin-left:3vw;
+	margin-top:5vw;
+	width:17vw;
+	position:absolute;
+}
+
+/* -- hummingbird rotate--*/
+#hum {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+/*-------------------------------600 AND LESS----------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px){
+
+body{
+	/*background-color: red;*/
+}
+
+#hum{
+	margin-left:3vw;
+	margin-top:4vw;
+	width:16vw;
+}
+
+#humCont{
+	height:38vw;
+}
+
+}
+
+/*-------------------------------601 To 1030-----------------------------------------------------------------------------------------------------------*/
+@media (max-width:1030px) and (min-width:601px){
+
+body{
+	/*background-color: yellow;*/
+}
+
+}
+
+/*-------------------------------1031 To 1600------------------------------------------------------------------------------------------------------*/
+
+@media (max-width:1600px) and (min-width:1031px){
+
+body{
+	/*background-color: purple;*/
+}
+
+}
+
+/*-------------------------------1601 and Greater-----------------------------------------------------------------------------------------------------*/
+
+@media (min-width:1601px){
+
+body{
+	/*background-color: green;*/
+}
+
+/* -- hummingbird image--*/
+#hum{
+	width:15vw;
+}
+}
